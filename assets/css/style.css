@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #ecf0f1;
+  padding: 50px 10px;
+  text-align: center;
+}
+img:hover, img:focus{
+  opacity: 0.5;
+}
+.gallery{
+  width: 100%;
+  background-color: #bdc3c7;
+  text-align: center;
+}
+.gallery-item{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 100%;
+}
+.gallery-item div{
+  width: 17%;
+  margin: 1%;
+}
+.gallery-item div img{
+  max-width: 100%;
+  border-radius: 5px;
+}

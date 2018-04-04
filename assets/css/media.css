@@ -1,0 +1,32 @@
+@media only screen and (min-width: 992px) {
+  .gallery-item {
+    width: 970px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .gallery-item {
+    width: 750px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .gallery-item div{
+    width: 17%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .gallery-item div{
+    width: 31.3333%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .gallery-item div{
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 480px){
+  .gallery-item div {
+    width: 100%
+  }
+}
+
+
